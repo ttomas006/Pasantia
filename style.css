@@ -39,6 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     display:flex;
+    font-size: 20px
 }
 
 li a {
@@ -54,6 +55,5 @@ li a:hover {
 
 img {
     height: 30px;
-    padding-right: 10px;
     float: left;
 }
