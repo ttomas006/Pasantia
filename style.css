@@ -14,7 +14,7 @@ h1 {
     text-decoration: underline;
     font-weight: bold;
     color: #330099;
-}
+} 
 
 label {
     color: #4400cc;
@@ -26,6 +26,7 @@ h2 {
 
 h4 {
     color: #884Dff;
+    
 }
 
 header {
@@ -41,7 +42,7 @@ ul {
 }
 
 li a {
-    float: right;
+    float: left;
     color: #ddccff;
     text-decoration: none;
     margin: 5px;
@@ -53,6 +54,6 @@ li a:hover {
 
 img {
     height: 30px;
-    weight: 30px;
     padding-right: 10px;
+    float: left;
 }
