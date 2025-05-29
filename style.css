@@ -48,6 +48,14 @@ ul {
     font-family: "pepsi";
 }
 
+.header {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "pepsi";
+}
+
 li a {
     float: left;
     color: #004B93;
