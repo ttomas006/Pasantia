@@ -50,20 +50,30 @@ img {
 .Enlace__logo {
     margin: -7px;
 }
+.hoja{
+    color:rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.linea{ 
+    display:flex;
+}
 .info_nutri{
-    background-color: white;
-    margin-left: 50px;
-    font-family: "titulos";
-    color:rgb(0, 0, 0);
-    display:grid;
-    padding-left:10px;
-    margin: 5px;
+    background-color:white ;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.imagen{
+    max-width: 300px;
     border-radius: 10px;
-    width: 40%;
-    margin-top: 40px;
-    margin-left: 20px;
 }
-.info_nutri h2{
-    color:#004B93; 
+.derecha{
+    text-align: right;
 }
-
+.kiko{
+    display:flex;
+    justify-content:space-between;
+}
