@@ -1,0 +1,102 @@
+.grid__div {
+    display: grid;
+    border: solid gray;
+    text-align: center;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.grid__div {
+    grid-template:
+    "main"
+    "contact"
+    "mail"
+    "tel";
+
+    @media screen {
+        grid-template:
+        "main main" 300px
+        "contact contact" 230px
+        "mail tel" 190px;
+        width: 798;
+    }
+    
+    .main__div {
+        grid-area: main;
+        background-color: #0084ff;
+        border-radius: 20px;
+        box-shadow: 1px 10px 10px  gray;
+    }
+
+    .contact__div {
+        grid-area: contact;
+        background-color: #0065c4;
+        border-radius: 20px;
+        box-shadow: 1px 10px 10px  gray;
+    }
+
+    .mail__div {
+        grid-area: mail;
+        background-color: #004B93;
+        border-radius: 3px;
+        box-shadow: 1px 10px 10px  gray;
+    }
+
+    .tel__div {
+        grid-area: tel;
+        background-color: #004B93;
+        border-radius: 3px;
+        box-shadow: 1px 10px 10px  gray;
+    }
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+p {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.buttons a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    border: solid white;
+    border-radius: 200px;
+}
+
+.buttons a:hover {
+    color: #004B93;
+    background-color: white;
+}
+
+ul > .buttons {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+}
+
+.logo_x {
+    border: solid black;
+    float: left;
+}
