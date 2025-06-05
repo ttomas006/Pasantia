@@ -11,12 +11,13 @@
         <header>
             <ul>
                 <li class="Enlaces">
+                    <a href="index.html">Inicio</a>
                     <a href="contacto.html">Contacto</a>
                     <a href="#">Ayuda</a>
                     <a href="index.html">Entrevista</a>
                 </li>
                 <li class="Enlace__logo">
-                    <a href="#"><img src="logo.png" alt="Logo de Pepsi"></a>
+                    <a href="index.html"><img src="logo.png" alt="Logo de Pepsi"></a>
                 </li>
             </ul>
         </header>
@@ -26,38 +27,38 @@
             <h1>Entrevista de trabajo</h1>
             <h2>Saque su turno</h2>
         
-                <div class="form__div__div" id="nya">
-                    <label for="input" id="nya2">Nombre: </label>
-                    <input type="text" placeholder="xxxxx">
+                <div class="form__div__div">
+                    <label for="input">Nombre: </label>
+                    <input type="text" placeholder="xxxxx" id="name-form">
                     <label for="input">Apellido: </label>
-                    <input type="text" placeholder="xxxxx">
+                    <input type="text" placeholder="xxxxx" id="adress-form">
                 </div>
 
-                <div class="form__div__div" id="cnt">
+                <div class="form__div__div">
                     <label for="input">Email: </label>
-                    <input type="text" placeholder="@gmail">
+                    <input type="text" placeholder="@gmail" id="email-form">
                     <label for="input">Numero: </label>
-                    <input type="number" placeholder="10 caracteres">
+                    <input type="number" placeholder="10 caracteres" id="tel-form">
                 </div>
 
-                <div class="form__dni" id="dni">
+                <div class="form__dni">
                     <label for="input">DNI: </label>
-                    <input type="number" placeholder="8 caracteres">
+                    <input type="number" placeholder="8 caracteres" id="dni-form">
                 </div>
 
-                <div id="sede">
+                <div>
                     <label for="sedes">Elegi la sede: </label>
-                    <select name="Sedes">
-                        <option value="torcuato">Ayacucho 533-Don torcuato</option>
-                        <option value="san-fernando">Tuyuti 1026 -San fernando</option>
-                        <option value="garin">Matheu 784-Garin</option>
-                        <option value="benavidez">Milberg 666-Benavidez</option>
+                    <select name="Sedes" id="sede-form">
+                        <option value="Ayacucho 533-Don torcuato">Ayacucho 533-Don torcuato</option>
+                        <option value="Tuyuti 1026 -San fernando">Tuyuti 1026 -San fernando</option>
+                        <option value="Matheu 784-Garin">Matheu 784-Garin</option>
+                        <option value="Milberg 666-Benavidez">Milberg 666-Benavidez</option>
                     </select>
                 </div>
 
-                <div id="info">
+                <div>
                     <h4>Contanos sobre vos:</h4>
-                    <textarea name="textarea" id=""></textarea>
+                    <textarea name="textarea" id="info-form"></textarea>
                 </div>
 
                 <input type="button" value="Enviar" id="btn">

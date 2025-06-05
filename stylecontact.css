@@ -1,3 +1,87 @@
+@import url(PEPSI_pl.ttf);
+
+@font-face {
+    font-family: "pepsi";
+    src: url(pepsi-font.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+div {
+    margin: 1%;
+}
+
+h1 {
+    text-decoration: underline;
+    color: #004585;
+} 
+
+label {
+    color: #005cb3;
+}
+
+h2 {
+    color: #004B93;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+h4 {
+    color: #004B93;
+    margin-top: 35px;
+    
+}
+
+header {
+    background-color: #00203D;
+    padding: 20px;
+    border-bottom: solid 7px;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "pepsi";
+    justify-content: space-between;
+}
+
+.header {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "pepsi";
+}
+
+li a {
+    float: left;
+    color: #004B93;
+    text-decoration: none;
+    margin: 5px;
+}
+
+li a:hover {
+    color: #00A6FB;
+    transform: translateY(-3px);
+}
+
+a > img {
+    height: 30px;
+}
+
+.Enlace__logo {
+    margin: -7px;
+}
+
 .grid__div {
     display: grid;
     border: solid gray;
@@ -89,7 +173,7 @@ ul > .buttons {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+div > ul {
     display: grid;
     justify-content: center;
     align-items: center;
