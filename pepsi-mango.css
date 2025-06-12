@@ -94,33 +94,28 @@ img {
 }
 .contenedor{
     display:flex;
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
    
 }
 body{
     margin: 0;
     padding: 0;
-    background-image: url(pepsi-pdp.jpeg);
+    background-image: url(pepsi-mango-pdp.jpeg);
     background-size: cover;
-    background-position: 200px center;
+    background-position: 1px center;
     background-repeat: no-repeat;
-    overflow-x: hidden;;
+    overflow-x: hidden;
 }
-.flechas{
-    text-align: center;
-    margin-top: 50px;
-    position: fixed;
-    bottom: 20px;
-    left: 0;
-    width: 100%;    
+#proteina{
+    margin-top: 35px;
 }
-.flechas a{
-    font-size: 50px;
-    text-decoration: none;
-    color: black;
-    margin: 0 30px;
-}
-.flechas a:hover{
-    color: gray;
+.botones{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 30px solid white;
+    background: none;
+    cursor: pointer;
+    align-content: center;
 }
