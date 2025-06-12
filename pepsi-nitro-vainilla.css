@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "pepsi";
+    src: url(PepsiOwner-Regular.ttf);
+}
+
+@font-face {
+    font-family: "pepsi2";
+    src: url(PepsiOwner-Extendido.ttf);
+}
+
   body {
     background-color: hsl(0, 0%, 0%);
     margin: 0;
@@ -7,35 +17,87 @@
 }
 
 header {
-    background-color: #00203D;
+    background-color: black;
     padding: 20px;
     border-bottom: solid 7px;
-
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
     font-family: "pepsi";
+    justify-content: space-between;
+    float: right;
 }
 
-li a {
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #0010ee;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "pepsi2";
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu-btn {
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.menu-btn-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+header .Enlace__logo {
     float: left;
-    color: #004B93;
+}
+
+header li a {
+    float: right;
+    color: white;
     text-decoration: none;
     margin: 5px;
 }
 
-li a:hover {
+header li a:hover {
     color: #00A6FB;
+    transform: translateY(-3px);
 }
 
-img {
-    height: 30px;
-    float: left;
-    padding-left: 820px;
+a > img {
+    height: 60px;
+}
+
+.Enlace__logo {
+    margin: -4px;
 }
 
 @font-face {
@@ -47,9 +109,6 @@ img {
     src: url(NCLNeovibes-Demo.otf);
 }
 
-.Enlace__logo {
-    margin: -7px;
-}
 .hoja{
     color:rgb(0, 0, 0) ;
     display: flex;

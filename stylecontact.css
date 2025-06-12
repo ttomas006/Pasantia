@@ -2,7 +2,12 @@
 
 @font-face {
     font-family: "pepsi";
-    src: url(pepsi-font.ttf);
+    src: url(PepsiOwner-Regular.ttf);
+}
+
+@font-face {
+    font-family: "pepsi2";
+    src: url(PepsiOwner-Extendido.ttf);
 }
 
 body {
@@ -39,47 +44,86 @@ h4 {
 }
 
 header {
-    background-color: #00203D;
+    background-color: black;
     padding: 20px;
     border-bottom: solid 7px;
-
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
     font-family: "pepsi";
     justify-content: space-between;
 }
 
-.header {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.menu-items {
     display: flex;
-    font-family: "pepsi";
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #0010ee;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-li a {
+nav ul li a {
+    text-decoration: none;
+    font-family: "pepsi2";
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu-btn {
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.menu-btn-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+header .Enlace__logo {
     float: left;
-    color: #004B93;
+}
+
+header li a {
+    float: right;
+    color: white;
     text-decoration: none;
     margin: 5px;
 }
 
-li a:hover {
+header li a:hover {
     color: #00A6FB;
     transform: translateY(-3px);
 }
 
 a > img {
-    height: 30px;
+    height: 60px;
 }
 
 .Enlace__logo {
-    margin: -7px;
+    margin: -4px;
 }
 
 .grid__div {
@@ -183,4 +227,20 @@ div > ul {
 .logo_x {
     border: solid black;
     float: left;
+}
+
+.buscador {
+    background: none;
+    border: none;
+    padding: 5px;
+    width: 900px;
+    color: white;
+    border-bottom: solid white;
+    font-size: 20px;
+    margin: -10px;
+}
+
+.buscador::placeholder {
+    color: white;
+    font-size: 20px;
 }

@@ -9,17 +9,20 @@
 <body>
     <main>
         <header>
-            <ul class="header">
-                <li class="Enlaces">
-                    <a href="index.html">Inicio</a>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="pepsi.html">Productos</a>
-                    <a href="entrevista.html">Entrevista</a>
-                </li>
-                <li class="Enlace__logo">
-                    <a href="index.html"><img src="logo.png" alt="Logo de Pepsi"></a>
-                </li>
-            </ul>
+            <li class="Enlace__logo">
+                        <a href="index.html"><img src="https://www.pepsi.com/assets/images/pepsi-logos/logo-0.png" alt="Logo de Pepsi"></a>
+            </li>
+            <button class="menu-btn">≡</button>
+            <nav>
+                <ul class="menu-items">
+                        <button class="menu-btn-2">✕</button>
+                        <img src="https://www.pepsi.com/assets/images/pepsi-logos/logo-0.png" alt="">
+                        <li class="items_inicio"><a href="index.html">Inicio</a></li>
+                        <li class="items_productos"><a href="pepsi.html">Productos</a></li>
+                        <li class="items_contacto"><a href="contacto.html">Contacto</a></li>
+                        <li class="items_entrevista"><a href="entrevista.html">Entrevista</a></li>
+                </ul>
+            </nav>
         </header>
 
         <div class="grid__div">
@@ -28,7 +31,7 @@
                 <p>En nuestra pagina contamos con servicio al cliente<br>
                    Las 24 horas del dia con una buena moderacion</p>
                 <h2>¿Necesitas ayuda?</h2>
-                <input type="search" name="search" placeholder="        Busca respuestas">
+                <input class="buscador" type="search" name="search" placeholder="Busca tu respuesta">
             </div>
             <div class="contact__div">
                 <h1>Nuestras redes sociales</h1>
@@ -55,10 +58,7 @@
                 </ul>
             </div>
         </div>
-        <footer>
-
-        </footer>
     </main>
-    
+<script src="index.js"></script>
 </body>
 </html>
