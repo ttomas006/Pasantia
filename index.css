@@ -47,10 +47,9 @@ h4 {
 }
 
 header {
-    background-color: #00203D;
+    background-color: black;
     padding: 20px;
     border-bottom: solid 7px;
-
 }
 
 ul {
@@ -59,29 +58,52 @@ ul {
     padding: 0;
     font-family: "pepsi";
     justify-content: space-between;
-    display: none;
+    float: right;
 }
 
-.header {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-family: "pepsi";
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #0010ee;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-nav {
-    background-color: white;
-    display: grid;
-    grid-template:
-    "header";
-}
-
-
-.container li a {
-    color: white;
+nav ul li a {
     text-decoration: none;
     font-family: "pepsi2";
-    font-size: 23px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu-btn {
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.menu-btn-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 50px;
 }
 
 header .Enlace__logo {
@@ -90,7 +112,7 @@ header .Enlace__logo {
 
 header li a {
     float: right;
-    color: #004B93;
+    color: white;
     text-decoration: none;
     margin: 5px;
 }
@@ -101,11 +123,11 @@ header li a:hover {
 }
 
 a > img {
-    height: 30px;
+    height: 60px;
 }
 
 .Enlace__logo {
-    margin: -7px;
+    margin: -4px;
 }
 
 .container {
@@ -129,6 +151,17 @@ a > img {
 
 .title h1 {
     margin-top: 150px;
+}
+
+.title {
+    margin-left: 75px;
+}
+
+.title li a {
+    text-decoration: none;
+    color: white;
+    font-family: "pepsi2";
+    font-size: 23px;
 }
 
 .container > div.img {
