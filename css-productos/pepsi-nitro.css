@@ -1,0 +1,121 @@
+body {
+    background-color: hsl(0, 0%, 0%);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+header {
+    background-color: #00203D;
+    padding: 20px;
+    border-bottom: solid 7px;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "pepsi";
+}
+
+li a {
+    float: left;
+    color: #004B93;
+    text-decoration: none;
+    margin: 5px;
+}
+
+li a:hover {
+    color: #00A6FB;
+}
+
+img {
+    height: 30px;
+    float: left;
+    padding-left: 820px;
+}
+
+@font-face {
+    font-family: "pepsi";
+    src: url(fuentes\pepsi-font.ttf);
+}
+@font-face {
+    font-family: "titulos";
+    src: url(fuentes\NCLNeovibes-Demo.otf);
+}
+
+.Enlace__logo {
+    margin: -7px;
+}
+.hoja{
+    color:rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+}
+.linea{ 
+    display:flex;
+}
+.info_nutri{
+    background-color:white ;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.imagen{
+    width: 75%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 75%;
+    margin: 0;
+}
+.imagen img{
+    max-width: 95%;
+    max-height: 90vh;
+    height: auto;
+    border-radius: 20px;
+    object-fit: contain;
+    padding-right:600px;
+    justify-items: left;
+    justify-content: left;
+}
+.derecha{
+    text-align: right;
+}
+.kiko{
+    display:flex;
+    justify-content:space-between;
+}
+.contenedor{
+    display:flex;
+    height: 150vh;
+    width: 100vw;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes\pepsi-nitro-draft-pdp.jpeg);
+    background-size: cover;
+    background-position: 1px center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+#proteina{
+    margin-top: 35px;
+}
+.botones{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 30px solid white;
+    background: none;
+    cursor: pointer;
+    align-content: center;
+}

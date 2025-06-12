@@ -57,17 +57,23 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
     font-family: "pepsi";
     justify-content: space-between;
+    display: none;
 }
 
 .header {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
     font-family: "pepsi";
+}
+
+nav {
+    background-color: white;
+    display: grid;
+    grid-template:
+    "header";
 }
 
 
@@ -78,8 +84,12 @@ ul {
     font-size: 23px;
 }
 
-header li a {
+header .Enlace__logo {
     float: left;
+}
+
+header li a {
+    float: right;
     color: #004B93;
     text-decoration: none;
     margin: 5px;
@@ -174,6 +184,7 @@ a > img {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
+    margin-left: 13px;
 }
 
 .content_title_btn a {
@@ -190,6 +201,10 @@ a > img {
     background-color: white;
     color:#0010ee;
     transition-duration: 0.4s;
+}
+
+li {
+    list-style: none;
 }
 
 .content_title_rule {
