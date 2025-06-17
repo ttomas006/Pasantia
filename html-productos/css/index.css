@@ -1,13 +1,13 @@
-@import url(PEPSI_pl.ttf);
+@import url(fonts/PEPSI_pl.ttf);
 
 @font-face {
     font-family: "pepsi";
-    src: url(PepsiOwner-Regular.ttf);
+    src: url(fonts/PepsiOwner-Regular.ttf);
 }
 
 @font-face {
     font-family: "pepsi2";
-    src: url(PepsiOwner-Extendido.ttf);
+    src: url(fonts/PepsiOwner-Extendido.ttf);
 }
 
 body {

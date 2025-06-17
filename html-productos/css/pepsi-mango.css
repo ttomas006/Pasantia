@@ -1,11 +1,11 @@
 @font-face {
     font-family: "pepsi";
-    src: url(PepsiOwner-Regular.ttf);
+    src: url(fonts/PepsiOwner-Regular.ttf);
 }
 
 @font-face {
     font-family: "pepsi2";
-    src: url(PepsiOwner-Extendido.ttf);
+    src: url(fonts/PepsiOwner-Extendido.ttf);
 }
 
 body {
@@ -102,11 +102,11 @@ a > img {
 
 @font-face {
     font-family: "pepsi";
-    src: url(pepsi-font.ttf);
+    src: url(fonts/pepsi-font.ttf);
 }
 @font-face {
     font-family: "titulos";
-    src: url(NCLNeovibes-Demo.otf);
+    src: url(fonts/NCLNeovibes-Demo.otf);
 }
 
 .hoja{
@@ -160,39 +160,21 @@ a > img {
 body{
     margin: 0;
     padding: 0;
-    background-image: url(diet-pepsi-pdp.jpeg);
+    background-image: url(pepsi-mango-pdp.jpeg);
     background-size: cover;
     background-position: 1px center;
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
-.proteina{
+#proteina{
     margin-top: 35px;
 }
-.flechas{
-    text-align: center;
-    margin-top: 50px;
-    position: fixed;
-    bottom: 20px;
-    left: 0;
-    width: 100%; 
-    margin-left: 1px center;
-    position: absolute;
-    padding-left: 500px;
-}
-.flechas a{
-    font-size: 50px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin: 0 30px;
-
-}
-.flechas a:hover{
-    color: gray;
-}
-.flecha-izquierda{
-    padding-right: 999px;
-}
-.flecha-derecha{
-    padding-left: 1px;
+.botones{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 30px solid white;
+    background: none;
+    cursor: pointer;
+    align-content: center;
 }

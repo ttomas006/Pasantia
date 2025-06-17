@@ -1,11 +1,11 @@
 @font-face {
     font-family: "pepsi";
-    src: url(PepsiOwner-Regular.ttf);
+    src: url(fonts/PepsiOwner-Regular.ttf);
 }
 
 @font-face {
     font-family: "pepsi2";
-    src: url(PepsiOwner-Extendido.ttf);
+    src: url(fonts/PepsiOwner-Extendido.ttf);
 }
 
   body {
@@ -102,11 +102,11 @@ a > img {
 
 @font-face {
     font-family: "pepsi";
-    src: url(pepsi-font.ttf);
+    src: url(fonts/pepsi-font.ttf);
 }
 @font-face {
     font-family: "titulos";
-    src: url(NCLNeovibes-Demo.otf);
+    src: url(fonts/NCLNeovibes-Demo.otf);
 }
 
 .hoja{
