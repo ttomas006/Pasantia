@@ -258,8 +258,8 @@ li {
     margin-left: -40px;
     display: flex;
     scroll-snap-type: x mandatory;
-    overflow-x:auto;
     flex-wrap: nowrap;
+    overflow-x:scroll;
 }
 
 .column {
