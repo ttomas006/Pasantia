@@ -1,4 +1,3 @@
-<?php session ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -72,7 +71,14 @@
                          Limit one entry per person/email address per day. Subject to Official Rules.
                          *Actual prize may vary from what’s shown.</a>
                 </li>
-            </div>     
+            </div>
+            
+            <div>
+                <iframe src="https://youtu.be/mbfmx1eXLuc" frameborder="0"
+                width="1200px" height="560px"></iframe>
+
+                <iframe src="" frameborder="0"></iframe>
+            </div>
             <section id="seccion-destino"></section>
         </div>
     </main>
