@@ -259,7 +259,7 @@ li {
     display: flex;
     scroll-snap-type: x mandatory;
     flex-wrap: nowrap;
-    overflow-x:scroll;
+    overflow-x: scroll;    
 }
 
 .column {
@@ -268,11 +268,25 @@ li {
     margin: auto;
     width: 450px;
     height: 450px;
-    margin-right: 16px;
+    margin-right: 50px;
+    margin-left: 50px;
     flex: 0 0 auto;
     scroll-snap-align: center;
 }
 
 .column img {
     height: 450px;
+}
+
+.btn-izq {
+    border: solid black;
+}
+
+.btn-der {
+    border: solid black;
+}
+
+.btn-izq:hover {
+    color: black;
+    background-color: black;
 }
