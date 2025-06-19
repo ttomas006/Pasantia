@@ -160,7 +160,7 @@ a > img {
 body{
     margin: 0;
     padding: 0;
-    background-image: url(pepsi-zero-pdp.jpeg);
+    background-image: url(images/pepsi-zero-pdp.jpeg);
     background-size: cover;
     background-position: 1px center;
     background-repeat: no-repeat;
@@ -170,29 +170,20 @@ body{
     margin-top: 35px;
 }
 .flechas{
-    text-align: center;
     margin-top: 50px;
-    position: fixed;
     bottom: 20px;
-    left: 0;
     width: 100%; 
-    margin-left: 1px center;
     position: absolute;
-    padding-left: 500px;
+    left: 0;
+    text-align: center;
 }
 .flechas a{
     font-size: 50px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0 30px;
-
+    margin-left: 540px;
 }
 .flechas a:hover{
     color: gray;
-}
-.flecha-izquierda{
-    padding-right: 999px;
-}
-.flecha-derecha{
-    padding-left: 1px;
 }
