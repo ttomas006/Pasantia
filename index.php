@@ -18,10 +18,10 @@
                 <ul class="menu-items">
                         <button class="menu-btn-2">✕</button>
                         <img src="https://www.pepsi.com/assets/images/pepsi-logos/logo-0.png" alt="">
-                        <li class="items_inicio"><a href="index.html">Inicio</a></li>
-                        <li class="items_productos"><a href="pepsi.html">Productos</a></li>
-                        <li class="items_contacto"><a href="contacto.html">Contacto</a></li>
-                        <li class="items_entrevista"><a href="entrevista.html">Entrevista</a></li>
+                        <li class="items_inicio"><a href="index.php">Inicio</a></li>
+                        <li class="items_productos"><a href="pepsi.php">Productos</a></li>
+                        <li class="items_contacto"><a href="contacto.php">Contacto</a></li>
+                        <li class="items_entrevista"><a href="entrevista.php">Entrevista</a></li>
                 </ul>
             </nav>
         </header>

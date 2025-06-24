@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pepsi</title>
-    <link rel="stylesheet" href="css/pepsi-wildcherry.css">
+    <link rel="stylesheet" href="css/pepsi-caffeine-free.css">
 </head>
 <body>
     <main>
@@ -17,7 +17,7 @@
                 <ul class="menu-items">
                         <button class="menu-btn-2">✕</button>
                         <img src="https://www.pepsi.com/assets/images/pepsi-logos/logo-0.png" alt="">
-                        <li class="items_inicio"><a href="index.php">Inicio</a></li>
+                         <li class="items_inicio"><a href="index.php">Inicio</a></li>
                         <li class="items_productos"><a href="pepsi.php">Productos</a></li>
                         <li class="items_contacto"><a href="contacto.php">Contacto</a></li>
                         <li class="items_entrevista"><a href="entrevista.php">Entrevista</a></li>
@@ -27,7 +27,7 @@
         <div class="contenedor">
         <div class="hoja">
             <div class="info_nutri">
-                <h1>PEPSI WILDCHERRY</h1>
+                <h1 class="nombre-bebida">PEPSI CAFFEINE FREE</h1>
                 <hr class="linea">
                 <h2>Informacion Nutricional</h2>
                 <hr class="linea">
@@ -36,7 +36,7 @@
                 <hr>
                <div><p class="derecha">% Valor diario</p></div> 
                 <div>
-                    <p>Calorías: 160</p>
+                    <p>Calorías: 150</p>
                 </div>
                 <div class="kiko">
                     <p>Grasa total: 0 g</p>
@@ -47,19 +47,19 @@
                 <p>1 %</p>   
                 </div>
                 <div class="kiko">
-                 <p>Carbohidratos totales: 42g</p>   
-                 <p>0 %</p>  
+                 <p>Carbohidratos totales: 41g</p>   
+                 <p>14 %</p>  
                 </div>
-                <p>Azúcares: 0g</p>    
+                <p>Azúcares: 41g</p>    
                 <p id="proteina">Proteína: 0g</p>
                 <hr>
-                <p>AGUA CARBONATADA , JARABE DE MAÍZ DE ALTA FRUCTOSA , COLOR CARAMELO , AZÚCAR , ÁCIDO FOSFÓRICO , SABOR NATURAL , CAFEÍNA , ÁCIDO CÍTRICO</p>
+                <p class="ingredientes">AGUA CARBONATADA , JARABE DE MAÍZ DE ALTA FRUCTOSA , COLOR CARAMELO , AZÚCAR , ÁCIDO FOSFÓRICO , ÁCIDO CÍTRICO , SABOR NATURAL</p>
             </div>
         </div>
         </div>
              <div class="flechas">
-                <a class="flecha-derecha" href="pepsi-mango-zero.php">←</a>
-                <a class="flecha-izquierda" href="pepsi-wildcherry-zero.php">→</a>
+                <a class="flecha-derecha" href="pepsi-wildcherry-diet.php">←</a>
+                <a class="flecha-izquierda" href="pepsi-diet-caffeine-free.php">→</a>
             </div>
     </main>
 <script src="js/productos.js"></script>

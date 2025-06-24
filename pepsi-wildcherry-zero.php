@@ -17,10 +17,10 @@
                 <ul class="menu-items">
                         <button class="menu-btn-2">✕</button>
                         <img src="https://www.pepsi.com/assets/images/pepsi-logos/logo-0.png" alt="">
-                        <li class="items_inicio"><a href="index.html">Inicio</a></li>
-                        <li class="items_productos"><a href="pepsi.html">Productos</a></li>
-                        <li class="items_contacto"><a href="contacto.html">Contacto</a></li>
-                        <li class="items_entrevista"><a href="entrevista.html">Entrevista</a></li>
+                         <li class="items_inicio"><a href="index.php">Inicio</a></li>
+                        <li class="items_productos"><a href="pepsi.php">Productos</a></li>
+                        <li class="items_contacto"><a href="contacto.php">Contacto</a></li>
+                        <li class="items_entrevista"><a href="entrevista.php">Entrevista</a></li>
                 </ul>
             </nav>
         </header>
@@ -53,13 +53,13 @@
                 <p>Azúcares: 0g</p>    
                 <p id="proteina">Proteína: 0g</p>
                 <hr>
-                <p>AGUA CARBONATADA , JARABE DE MAÍZ DE ALTA FRUCTOSA , COLOR CARAMELO , POLIFOSFATO DE SODIO (PARA PROTEGER EL SABOR) , ÁCIDO FOSFÓRICO , SABOR NATURAL , SORBATO DE POTASIO (CONSERVA LA FRESCURA) , CAFEÍNA , GOMA ARÁBIGA , ÁCIDO CÍTRICO , EDTA DISÓDICO DE CALCIO (PARA PROTEGER EL SABOR)</p>
+                <p class="ingredientes">AGUA CARBONATADA , COLOR CARAMELO , ÁCIDO FOSFÓRICO , SABOR NATURAL , ASPARTAMO , CAFEÍNA , SORBATO DE POTASIO (CONSERVA LA FRESCURA) , CITRATO DE POTASIO , ACESULFAMO DE POTASIO , ÁCIDO CÍTRICO , FENILCETONÚRICOS: CONTIENE FENILALANINA</p>
             </div>
         </div>
         </div>
              <div class="flechas">
-                <a class="flecha-derecha" href="pepsi-mango.html">←</a>
-                <a class="flecha-izquierda" href="pepsi-wildcherry-zero.html">→</a>
+                <a class="flecha-derecha" href="pepsi-wildcherry.php">←</a>
+                <a class="flecha-izquierda" href="pepsi-wildcherry-diet.php">→</a>
             </div>
     </main>
 <script src="js/productos.js"></script>

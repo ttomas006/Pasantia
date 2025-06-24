@@ -116,7 +116,6 @@ a > img {
     align-items: center;
     padding: 20px;
     width: 30%;
-    
 }
 .linea{ 
     display:flex;
@@ -161,7 +160,7 @@ a > img {
 body{
     margin: 0;
     padding: 0;
-    background-image: url(images/pepsi-wild-cherry-zero-pdp.jpeg);
+    background-image: url(images/pepsi-wild-cherry-diet-pdp.jpeg);
     background-size: cover;
     background-position: 1px center;
     background-repeat: no-repeat;
