@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 22, 22);
+    filter:blur();
+}
+
+.container-img {
+    background-image: url(images/pepsi-splash.gif);
+    height: 300px;
+    width: 550px;
+    transition: background-image 0.3s ease-in-out;
+    border-radius: 9999px;
+    background-size: cover;
+}
+
+.container-img img {
+    margin-top: 70px;
+    margin-right: -1px;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    border: solid gray;
+    width: 550px;
+    margin-left: 370px;
+    height: 600px;
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.title {
+    color: rgb(24, 24, 255)
+}
+
+.form__email input {
+    border-style: none;
+    border: solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: white;
+}
+
+.form__btn input {
+    border-style: none;
+    border: solid lightblue;
+    background-color: blue;
+    color: white;
+    border-radius 20px;
+    padding: 10px;
+}

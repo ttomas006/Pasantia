@@ -2,10 +2,7 @@
         const menuItems = document.querySelector('.menu-items');
         const moveScroll = document.getElementById("content_main")
 
-        /* moveScroll.addEventListener("wheel", (e) => {
-            e.defaultPrevented();
-        moveScroll.scrollLeft += e.deltaY;
-        }) */
+        const contenedor = document.getElementById("contenedor-scroll");
 
         menuItems.style.display = "none"
 

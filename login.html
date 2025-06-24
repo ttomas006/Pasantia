@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi - Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-img">
+            <a href="index.html"><img src="https://www.pepsi.com/assets/images/pepsi-logos/logo-0.png"></a>
+        </div>
+        <div class="form_login">
+            <h1>SIGN IN</h1>
+        
+                <div class="form__email">
+                    <input type="email" placeholder="Email Adress" id="name-form"> <input type="password" placeholder="" id="password-form">
+                    <button class="mostrar" onclick="mostrarContraseña()">VER</button>
+                </div>
+
+                <div class="form__btn">
+                    <input type="button" id="btn-form">
+                </div>
+    </div>
+    <script>
+        function mostrarContraseña(){
+            const passwordInput = document.getElementById("password-form");
+            const icon = document-querySelector(".mostrar");
+
+            if (passwordInput.type === "password-form"){
+                passwordInput.type = "text";
+                icon.textContent="NO VEO";
+            } else{
+                passwordInput.type = "password-form";
+                icon.textContent = "VER";
+            }
+        }
+    </script>
+</body>
+</html>
