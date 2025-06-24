@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mostrar/Ocultar Contraseña</title>
+  <style>
+    .password-container {
+      position: relative;
+      display: inline-block;
+    }
+    .toggle-password {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+      font-size: 18px;
+    }
+    input[type="password"],
+    input[type="text"] {
+      padding-right: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="password-container">
+    <input type="password" id="password" placeholder="Contraseña">
+    <span class="toggle-password" onclick="togglePassword()">👁️</span>
+  </div>
+
+  <script>
+    function togglePassword() {
+      const passwordInput = document.getElementById("password");
+      const icon = document.querySelector(".toggle-password");
+      
+      if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        icon.textContent = "🙈"; // Cambia el ícono al de ocultar
+      } else {
+        passwordInput.type = "password";
+        icon.textContent = "👁️"; // Vuelve al ícono de ver
+      }
+    }
+  </script>
+
+</body>
+</html>
