@@ -290,3 +290,7 @@ li {
     color: black;
     background-color: black;
 }
+
+.videos {
+    border-style: none;
+}
