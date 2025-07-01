@@ -35,23 +35,59 @@ body {
 }
 
 .title {
-    color: rgb(24, 24, 255)
+    color: rgb(24, 24, 255);
+}
+
+h1 {
+    font-family: "pepsi";
+}
+
+p {
+    margin-bottom: 40px;
 }
 
 .form__email input {
     border-style: none;
     border: solid gray;
     border-radius: 20px;
-    padding: 10px;
-    color: white;
+    padding: 10px;  
     background-color: white;
+    font-weight: 700;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(153 153 153 / var(--tw-text-opacity));
+    font-family: "pepsi", arial;
+    text-align: center;
+}
+
+.form__email input:focus {
+    background-color: rgb(211, 211, 211);
+}
+
+@font-face {
+    font-family: "pepsi";
+    src: url(fonts/PepsiOwner-Extendido.ttf);
 }
 
 .form__btn input {
     border-style: none;
-    border: solid lightblue;
+    border: solid white;
     background-color: blue;
     color: white;
-    border-radius 20px;
-    padding: 10px;
+    border-radius: 40px;
+    padding: 13px;  
+    margin-top: 20px;
+    width: 150px;
+    font-family: "pepsi";
+    font-size: 25px;
+    transition-duration: 0.3s;
+}
+
+.form__btn input:hover {
+    background-color: white;
+    color: blue;
+    transform: translateY(-7px);
+    box-shadow: 1px 5px 10px blue;
+    border: solid blue;
+    transition-duration: 0.3s;
 }

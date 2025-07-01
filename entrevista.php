@@ -1,3 +1,36 @@
+<?php
+
+include "configdb.php";
+
+if ($conn->connect_error) {
+    die("Error de conexión: " . $conn->connect_error);
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombre = $_POST["nombre"];
+    $apellido = $_POST["apellido"];
+    $email = $_POST["email"];
+    $numero = $_POST["numero"];
+    $dni = $_POST["dni"];
+    $sede = $_POST["sede"];
+    $comentario = $_POST["comentario"];
+
+    $sql = "INSERT INTO entrevista (nombre, apellido, email, numero, dni, sede, comentario)
+            VALUES (?, ?, ?, ?, ?, ?, ?)";
+
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("sssssss", $nombre, $apellido, $email, $numero, $dni, $sede, $comentario);
+
+    if ($stmt->execute()) {
+        echo "<p style='color: green;'>¡Datos guardados exitosamente!</p>";
+    } else {
+        echo "<p style='color: red;'>Error: " . $stmt->error . "</p>";
+    }
+
+    $stmt->close();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -25,33 +58,33 @@
             </nav>
         </header>
         
-        <form action=""></form>
+        <form method="POST" action="">
         <div class="form__div">
             <h1>Entrevista de trabajo</h1>
             <h2>Saque su turno</h2>
         
                 <div class="form__div__div">
                     <label for="input">Nombre: </label>
-                    <input type="text" placeholder="xxxxx" id="name-form">
+                    <input type="text" name="nombre" required placeholder="xxxxx" id="name-form">
                     <label for="input">Apellido: </label>
-                    <input type="text" placeholder="xxxxx" id="adress-form">
+                    <input type="text" name="apellido" required placeholder="xxxxx" id="adress-form">
                 </div>
 
                 <div class="form__div__div">
                     <label for="input">Email: </label>
-                    <input type="text" placeholder="@gmail" id="email-form">
+                    <input type="text" name="email" required placeholder="@gmail" id="email-form">
                     <label for="input">Numero: </label>
-                    <input type="number" placeholder="10 caracteres" id="tel-form">
+                    <input type="number" name="numero" required placeholder="10 caracteres" id="tel-form">
                 </div>
 
                 <div class="form__dni">
                     <label for="input">DNI: </label>
-                    <input type="number" placeholder="8 caracteres" id="dni-form">
+                    <input type="number" name="dni" required placeholder="8 caracteres" id="dni-form">
                 </div>
 
                 <div>
                     <label for="sedes">Elegi la sede: </label>
-                    <select name="Sedes" id="sede-form">
+                    <select name="sede" required id="sede-form">
                         <option value="Ayacucho 533-Don torcuato">Ayacucho 533-Don torcuato</option>
                         <option value="Tuyuti 1026 -San fernando">Tuyuti 1026 -San fernando</option>
                         <option value="Matheu 784-Garin">Matheu 784-Garin</option>
@@ -61,11 +94,12 @@
 
                 <div>
                     <h4>Contanos sobre vos:</h4>
-                    <textarea name="textarea" id="info-form" placeholder="Escribe algo..."></textarea>
+                    <textarea name="comentario" id="info-form" placeholder="Escribe algo..."></textarea>
                 </div>
 
-                <input type="button" value="Enviar" class="btn-env" id="btn">
+                <input type="submit" value="Enviar" class="btn-env" id="btn">
             </div>
+        </form>
     </main>
     <script src="js/entrevista.js"></script>
     <script src="js/index.js"></script>
