@@ -14,7 +14,15 @@ btn.addEventListener("click", () => {
         "password":txtClave
         }
     }
-    
+
     console.log("Mail: " + json.usuarios.mail)
     console.log("Clave: " + json.usuarios.password)
+
+    window.location.href = "index.php";
+})
+
+let txtBtnReg = document.getElementById("btn-register")
+
+txtBtnReg.addEventListener("click", () => {
+    window.location.href = "registro.php";
 })

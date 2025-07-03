@@ -119,3 +119,8 @@ p {
     border: solid blue;
     transition-duration: 0.3s;
 }
+
+.form__return a {
+    color: white;
+    
+}

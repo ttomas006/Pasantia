@@ -1,3 +1,10 @@
+<?php
+
+include "configdb.php";
+include "logindb.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,16 +18,16 @@
         <div class="container-img">
             <a href="index.html"><img src="https://www.pepsi.com/assets/images/pepsi-logos/logo-0.png"></a>
         </div>
-        <form class="form_login">
+        <form method="POST" class="form_login">
             <h1>SIGN IN</h1>
             <p>Enter your email and password used at registration or your PepsiCo Tasty Rewards credentials to access your account.</p>
 
                 <div class="form__email">
-                    <input type="email" placeholder="EMAIL ADDRESS" name="email" id="name-form"> <input type="password" name="clave" placeholder="PASSWORD ADDRESS" id="password-form"><span class="mostrar" style="cursor: pointer;" onclick="mostrarContraseña()"><img src="css/images/iconos/show.png" width="20" style="margin-left: -30px; margin-bottom: -5px;"></span>
+                    <input type="email" placeholder="EMAIL ADDRESS" name="email" id="name-form"> <input type="password" name="password" placeholder="PASSWORD ADDRESS" id="password-form"><span class="mostrar" style="cursor: pointer;" onclick="mostrarContraseña()"><img src="css/images/iconos/show.png" width="20" style="margin-left: -30px; margin-bottom: -5px;"></span>
                 </div>
 
                 <div class="form__btn">
-                    <input type="button" value="Enviar" id="btn-form">
+                    <input type="submit" value="Enviar" id="btn-form">
                 </div>
                 
                 <div class="form__dbj-btn">

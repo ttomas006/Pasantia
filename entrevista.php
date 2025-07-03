@@ -2,7 +2,7 @@
 
 include "configdb.php";
 
-include "registrodb.php";
+include "entrevistadb.php";
 
 ?>
 
