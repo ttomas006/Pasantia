@@ -1,13 +1,20 @@
-let json = {
-    "usuarios": {
-        "usuario":"asdasdas",
-        "mail": "sarasa@email.com",
-        "password":"asdas"
+let btn = document.getElementById("btn-form")
+let a = "Enviado"
+
+
+btn.addEventListener("click", () => {
+    alert(a)
+    const txtEmail = document.getElementById("name-form").value
+    const txtClave = document.getElementById("password-form").value
+
+    let json = {
+    "usuarios": 
+        {
+        "mail":txtEmail,
+        "password":txtClave
+        }
     }
-}
-
-{
-
-}
-
-json.usuarios.find(())
+    
+    console.log("Mail: " + json.usuarios.mail)
+    console.log("Clave: " + json.usuarios.password)
+})
